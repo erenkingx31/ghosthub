@@ -1,0 +1,62 @@
+local ScreenGui = Instance.new("ScreenGui")
+
+ScreenGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+local function OMADMH_fake_script() -- ScreenGui.Script 
+	local script = Instance.new('Script', ScreenGui)
+
+	_G.HeadSize = 30
+	_G.Disabled = true
+	
+	game:GetService('RunService').RenderStepped:connect(function()
+		if _G.Disabled then
+			for i,v in next, game:GetService('Players'):GetPlayers() do
+				if v.Name ~= game:GetService('Players').LocalPlayer.Name then
+					pcall(function()
+						v.Character.HumanoidRootPart.Size = Vector3.new(_G.HeadSize,_G.HeadSize,_G.HeadSize)
+						v.Character.HumanoidRootPart.Transparency = 0.7
+						v.Character.HumanoidRootPart.BrickColor = BrickColor.new("White")
+						v.Character.HumanoidRootPart.Material = "Neon"
+						v.Character.HumanoidRootPart.CanCollide = false
+					end)
+				end
+			end
+		end
+	end)
+end
+coroutine.wrap(OMADMH_fake_script)()
+local function NIJK_fake_script() -- ScreenGui.LocalScript 
+	local script = Instance.new('LocalScript', ScreenGui)
+
+	_G.HeadSize = 30
+	_G.Disabled = true
+	
+	game:GetService('RunService').RenderStepped:connect(function()
+		if _G.Disabled then
+			for i,v in next, game:GetService('Players'):GetPlayers() do
+				if v.Name ~= game:GetService('Players').LocalPlayer.Name then
+					pcall(function()
+						v.Character.HumanoidRootPart.Size = Vector3.new(_G.HeadSize,_G.HeadSize,_G.HeadSize)
+						v.Character.HumanoidRootPart.Transparency = 0.7
+						v.Character.HumanoidRootPart.BrickColor = BrickColor.new("White")
+						v.Character.HumanoidRootPart.Material = "Neon"
+						v.Character.HumanoidRootPart.CanCollide = false
+					end)
+				end
+			end
+		end
+	end)
+end
+coroutine.wrap(NIJK_fake_script)()
+local function LRITG_fake_script() -- ScreenGui.SendNotification 
+	local script = Instance.new('LocalScript', ScreenGui)
+
+	local StarterGui = game:GetService("StarterGui")
+	StarterGui:SetCore("SendNotification",{
+		Title = "SCRİPT BY GHOSTHUB ",
+		Text = "ENJOY",
+		Duration = 5
+	})
+end
+coroutine.wrap(LRITG_fake_script)()
