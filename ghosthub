@@ -15,15 +15,15 @@ ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
 KeyFrame.Name = "KeyFrame"
 KeyFrame.Parent = ScreenGui
 KeyFrame.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
-KeyFrame.Position = UDim2.new(-0.11907655, 0, -0.079457365, 0)
-KeyFrame.Size = UDim2.new(0, 1078, 0, 598)
+KeyFrame.Position = UDim2.new(-0.303766698, 0, -0.0930232555, 0)
+KeyFrame.Size = UDim2.new(0, 1090, 0, 598)
 
 UICorner.Parent = KeyFrame
 
 Check.Name = "Check"
 Check.Parent = KeyFrame
 Check.BackgroundColor3 = Color3.fromRGB(42, 14, 255)
-Check.Position = UDim2.new(0.370634735, 0, 0.379209876, 0)
+Check.Position = UDim2.new(0.52555126, 0, 0.658474147, 0)
 Check.Size = UDim2.new(0, 200, 0, 50)
 Check.Font = Enum.Font.SourceSans
 Check.Text = "CHECK KEY"
@@ -35,7 +35,7 @@ UICorner_2.Parent = Check
 key.Name = "key"
 key.Parent = KeyFrame
 key.BackgroundColor3 = Color3.fromRGB(106, 0, 255)
-key.Position = UDim2.new(0.342847139, 0, 0.250737667, 0)
+key.Position = UDim2.new(0.470862001, 0, 0.250737667, 0)
 key.Size = UDim2.new(0, 314, 0, 203)
 key.Font = Enum.Font.SourceSans
 key.Text = ""
@@ -71,7 +71,7 @@ ImageLabel_2.Position = UDim2.new(1.16242039, 0, -0.487684727, 0)
 ImageLabel_2.Size = UDim2.new(0, 208, 0, 173)
 ImageLabel_2.Image = "rbxassetid://16313867063"
 
-local function ZVQW_fake_script() -- Check.LocalScript 
+local function YBSQZ_fake_script() -- Check.LocalScript 
 	local script = Instance.new('LocalScript', Check)
 
 	local key = script.Parent.Parent.key
@@ -93,8 +93,8 @@ local function ZVQW_fake_script() -- Check.LocalScript
 	end)
 	
 end
-coroutine.wrap(ZVQW_fake_script)()
-local function BWDBTX_fake_script() -- Check.Script 
+coroutine.wrap(YBSQZ_fake_script)()
+local function MQCWM_fake_script() -- Check.Script 
 	local script = Instance.new('Script', Check)
 
 	local button = script.Parent
@@ -104,4 +104,4 @@ local function BWDBTX_fake_script() -- Check.Script
 	end)
 	
 end
-coroutine.wrap(BWDBTX_fake_script)()
+coroutine.wrap(MQCWM_fake_script)()
