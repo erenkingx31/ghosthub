@@ -1,10 +1,11 @@
-local ScreenGui = Instance.new("ScreenGui")
+local esp = Instance.new("ScreenGui")
 
-ScreenGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
-ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+esp.Name = "esp"
+esp.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+esp.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
 
-local function DEQNWX_fake_script() -- ScreenGui.LocalScript 
-	local script = Instance.new('LocalScript', ScreenGui)
+local function JMOGU_fake_script() -- esp.Script 
+	local script = Instance.new('Script', esp)
 
 	local FillColor = Color3.fromRGB(175,25,255)
 	local DepthMode = "AlwaysOnTop"
@@ -24,7 +25,7 @@ local function DEQNWX_fake_script() -- ScreenGui.LocalScript
 	local function Highlight(plr)
 		local Highlight = Instance.new("Highlight")
 		Highlight.Name = plr.Name
-		Highlight.FillColor = White
+		Highlight.FillColor = FillColor
 		Highlight.DepthMode = DepthMode
 		Highlight.FillTransparency = FillTransparency
 		Highlight.OutlineColor = OutlineColor
@@ -56,20 +57,9 @@ local function DEQNWX_fake_script() -- ScreenGui.LocalScript
 		end
 	end)
 end
-coroutine.wrap(DEQNWX_fake_script)()
-local function WEESTC_fake_script() -- ScreenGui.SendNotification 
-	local script = Instance.new('LocalScript', ScreenGui)
-
-	local StarterGui = game:GetService("StarterGui")
-	StarterGui:SetCore("SendNotification",{
-		Title = "SCRİPT BY GHOSTHUB ",
-		Text = "ENJOY",
-		Duration = 5
-	})
-end
-coroutine.wrap(WEESTC_fake_script)()
-local function QIJUJ_fake_script() -- ScreenGui.Script 
-	local script = Instance.new('Script', ScreenGui)
+coroutine.wrap(JMOGU_fake_script)()
+local function TMTKUI_fake_script() -- esp.LocalScript 
+	local script = Instance.new('LocalScript', esp)
 
 	local FillColor = Color3.fromRGB(175,25,255)
 	local DepthMode = "AlwaysOnTop"
@@ -89,7 +79,7 @@ local function QIJUJ_fake_script() -- ScreenGui.Script
 	local function Highlight(plr)
 		local Highlight = Instance.new("Highlight")
 		Highlight.Name = plr.Name
-		Highlight.FillColor = White
+		Highlight.FillColor = FillColor
 		Highlight.DepthMode = DepthMode
 		Highlight.FillTransparency = FillTransparency
 		Highlight.OutlineColor = OutlineColor
@@ -121,4 +111,4 @@ local function QIJUJ_fake_script() -- ScreenGui.Script
 		end
 	end)
 end
-coroutine.wrap(QIJUJ_fake_script)()
+coroutine.wrap(TMTKUI_fake_script)()
