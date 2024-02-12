@@ -1,0 +1,229 @@
+local ScreenGui = Instance.new("ScreenGui")
+local GhostPremiumBro = Instance.new("Frame")
+local Main = Instance.new("Frame")
+local Name = Instance.new("TextLabel")
+local Logo = Instance.new("ImageLabel")
+local Title = Instance.new("TextLabel")
+local Click = Instance.new("TextButton")
+local UICorner = Instance.new("UICorner")
+local TextBox = Instance.new("TextBox")
+local Text2 = Instance.new("TextLabel")
+local Text3 = Instance.new("TextLabel")
+local dc = Instance.new("TextLabel")
+local Text1 = Instance.new("TextLabel")
+local Close = Instance.new("TextButton")
+local dc_2 = Instance.new("TextLabel")
+
+ScreenGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+GhostPremiumBro.Name = "GhostPremiumBro"
+GhostPremiumBro.Parent = ScreenGui
+GhostPremiumBro.BackgroundColor3 = Color3.fromRGB(33, 33, 33)
+GhostPremiumBro.BorderColor3 = Color3.fromRGB(108, 130, 255)
+GhostPremiumBro.BorderSizePixel = 5
+GhostPremiumBro.Position = UDim2.new(0.256410271, 0, 0.267990083, 0)
+GhostPremiumBro.Size = UDim2.new(0, 422, 0, 256)
+
+Main.Name = "Main"
+Main.Parent = GhostPremiumBro
+Main.BackgroundColor3 = Color3.fromRGB(33, 33, 33)
+Main.BorderColor3 = Color3.fromRGB(108, 130, 255)
+Main.BorderSizePixel = 5
+Main.Position = UDim2.new(0.0224502347, 0, 0.0502662659, 0)
+Main.Size = UDim2.new(0, 403, 0, 23)
+
+Name.Name = "Name"
+Name.Parent = Main
+Name.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Name.BackgroundTransparency = 1.000
+Name.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Name.BorderSizePixel = 0
+Name.Position = UDim2.new(0.0210772641, 0, 0, 0)
+Name.Size = UDim2.new(0, 189, 0, 23)
+Name.Font = Enum.Font.Unknown
+Name.Text = "GhostHub Fake Premium"
+Name.TextColor3 = Color3.fromRGB(108, 130, 255)
+Name.TextScaled = true
+Name.TextSize = 14.000
+Name.TextWrapped = true
+
+Logo.Name = "Logo"
+Logo.Parent = GhostPremiumBro
+Logo.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Logo.BackgroundTransparency = 1.000
+Logo.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Logo.BorderSizePixel = 0
+Logo.Position = UDim2.new(0.0949067771, 0, 0.242265463, 0)
+Logo.Size = UDim2.new(0, 97, 0, 94)
+Logo.Image = "rbxassetid://15073817635"
+
+Title.Name = "Title"
+Title.Parent = GhostPremiumBro
+Title.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Title.BackgroundTransparency = 1.000
+Title.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Title.BorderSizePixel = 0
+Title.Position = UDim2.new(0.0424700566, 0, 0.612557054, 0)
+Title.Size = UDim2.new(0, 142, 0, 32)
+Title.Font = Enum.Font.Unknown
+Title.Text = "Free Premium"
+Title.TextColor3 = Color3.fromRGB(108, 130, 255)
+Title.TextScaled = true
+Title.TextSize = 14.000
+Title.TextWrapped = true
+
+Click.Name = "Click"
+Click.Parent = GhostPremiumBro
+Click.BackgroundColor3 = Color3.fromRGB(108, 130, 255)
+Click.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Click.BorderSizePixel = 0
+Click.Position = UDim2.new(0.021327015, 0, 0.76953125, 0)
+Click.Size = UDim2.new(0, 171, 0, 42)
+Click.Font = Enum.Font.Unknown
+Click.Text = "Run"
+Click.TextColor3 = Color3.fromRGB(33, 33, 33)
+Click.TextScaled = true
+Click.TextSize = 14.000
+Click.TextWrapped = true
+
+UICorner.CornerRadius = UDim.new(0, 3)
+UICorner.Parent = Click
+
+TextBox.Parent = GhostPremiumBro
+TextBox.BackgroundColor3 = Color3.fromRGB(33, 33, 33)
+TextBox.BorderColor3 = Color3.fromRGB(108, 130, 255)
+TextBox.BorderSizePixel = 5
+TextBox.Position = UDim2.new(0.467352778, 0, 0.714968801, 0)
+TextBox.Size = UDim2.new(0.505334675, 0, 0.117062308, 0)
+TextBox.ZIndex = 20
+TextBox.ClearTextOnFocus = false
+TextBox.Font = Enum.Font.Ubuntu
+TextBox.PlaceholderColor3 = Color3.fromRGB(255, 255, 255)
+TextBox.Text = "https://discord.gg/QZ3EmPuEjn"
+TextBox.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextBox.TextScaled = true
+TextBox.TextSize = 14.000
+TextBox.TextWrapped = true
+
+Text2.Name = "Text2"
+Text2.Parent = GhostPremiumBro
+Text2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Text2.BackgroundTransparency = 1.000
+Text2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Text2.BorderSizePixel = 0
+Text2.Position = UDim2.new(0.503049672, 0, 0.236834049, 0)
+Text2.Rotation = 25.000
+Text2.Size = UDim2.new(0, 200, 0, 36)
+Text2.Font = Enum.Font.SourceSansBold
+Text2.Text = "/"
+Text2.TextColor3 = Color3.fromRGB(108, 130, 255)
+Text2.TextScaled = true
+Text2.TextSize = 14.000
+Text2.TextWrapped = true
+
+Text3.Name = "Text3"
+Text3.Parent = GhostPremiumBro
+Text3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Text3.BackgroundTransparency = 1.000
+Text3.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Text3.BorderSizePixel = 0
+Text3.Position = UDim2.new(0.461423695, 0, 0.24100256, 0)
+Text3.Rotation = -25.000
+Text3.Size = UDim2.new(0, 193, 0, 33)
+Text3.Font = Enum.Font.SourceSansBold
+Text3.Text = "\\"
+Text3.TextColor3 = Color3.fromRGB(108, 130, 255)
+Text3.TextScaled = true
+Text3.TextSize = 14.000
+Text3.TextWrapped = true
+
+dc.Name = "dc"
+dc.Parent = GhostPremiumBro
+dc.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+dc.BackgroundTransparency = 1.000
+dc.BorderColor3 = Color3.fromRGB(0, 0, 0)
+dc.BorderSizePixel = 0
+dc.Position = UDim2.new(0.50396955, 0, 0.403275013, 0)
+dc.Size = UDim2.new(0, 182, 0, 66)
+dc.Font = Enum.Font.SourceSansBold
+dc.Text = "GhostHub Discord Server"
+dc.TextColor3 = Color3.fromRGB(108, 130, 255)
+dc.TextScaled = true
+dc.TextSize = 14.000
+dc.TextWrapped = true
+
+Text1.Name = "Text1"
+Text1.Parent = GhostPremiumBro
+Text1.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Text1.BackgroundTransparency = 1.000
+Text1.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Text1.BorderSizePixel = 0
+Text1.Position = UDim2.new(0.478071243, 0, 0.165619373, 0)
+Text1.Size = UDim2.new(0, 200, 0, 50)
+Text1.Font = Enum.Font.SourceSansBold
+Text1.Text = "|"
+Text1.TextColor3 = Color3.fromRGB(108, 130, 255)
+Text1.TextScaled = true
+Text1.TextSize = 14.000
+Text1.TextWrapped = true
+
+Close.Name = "Close"
+Close.Parent = GhostPremiumBro
+Close.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Close.BackgroundTransparency = 1.000
+Close.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Close.BorderSizePixel = 0
+Close.Position = UDim2.new(0.921139419, 0, 0.046875, 0)
+Close.Size = UDim2.new(0, 24, 0, 23)
+Close.Font = Enum.Font.Unknown
+Close.Text = "x"
+Close.TextColor3 = Color3.fromRGB(108, 130, 255)
+Close.TextScaled = true
+Close.TextSize = 14.000
+Close.TextWrapped = true
+
+dc_2.Name = "dc"
+dc_2.Parent = GhostPremiumBro
+dc_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+dc_2.BackgroundTransparency = 1.000
+dc_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+dc_2.BorderSizePixel = 0
+dc_2.Position = UDim2.new(0.634301305, 0, 0.872025013, 0)
+dc_2.Size = UDim2.new(0, 145, 0, 26)
+dc_2.Font = Enum.Font.SourceSansBold
+dc_2.Text = "VERSİON: BETA"
+dc_2.TextColor3 = Color3.fromRGB(108, 130, 255)
+dc_2.TextScaled = true
+dc_2.TextSize = 14.000
+dc_2.TextWrapped = true
+
+local function PFYNAAQ_fake_script() -- Click.LocalScript 
+	local script = Instance.new('LocalScript', Click)
+
+	-- Script Butotna Tıklayınca Size Sahte Premium Verecek
+	
+	local button = script.Parent
+	
+	button.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/erenkingx31/ghosthub/main/fepre'))()
+	end)
+	
+end
+coroutine.wrap(PFYNAAQ_fake_script)()
+local function WCMRIK_fake_script() -- Close.LocalScript 
+	local script = Instance.new('LocalScript', Close)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.Visible = false
+	end)
+end
+coroutine.wrap(WCMRIK_fake_script)()
+local function WZNTCNH_fake_script() -- ScreenGui.LocalScript 
+	local script = Instance.new('LocalScript', ScreenGui)
+
+	frame = script.Parent.GhostPremiumBro -- GHSOTHUB İS BEST
+	frame.Active = true
+	frame.Selectable = true
+end
+coroutine.wrap(WZNTCNH_fake_script)()
