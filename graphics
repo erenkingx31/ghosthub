@@ -36,6 +36,7 @@ SettingsFrame.BorderColor3 = Color3.fromRGB(0, 0, 0)
 SettingsFrame.BorderSizePixel = 20
 SettingsFrame.Position = UDim2.new(-8.57235349e-08, 0, 0, 0)
 SettingsFrame.Size = UDim2.new(0, 455, 0, -290)
+SettingsFrame.Visible = false
 
 TextButton.Parent = SettingsFrame
 TextButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
@@ -191,7 +192,7 @@ ON_3.TextWrapped = true
 Effects.Name = "Effects"
 Effects.Parent = ghos
 
-local function GLHIRT_fake_script() -- Main.Script 
+local function HEONS_fake_script() -- Main.Script 
 	local script = Instance.new('LocalScript', Main)
 
 	function onButtonClicked()
@@ -210,8 +211,8 @@ local function GLHIRT_fake_script() -- Main.Script
 	script.Parent.MouseButton1Click:connect(onButtonClicked)
 	
 end
-coroutine.wrap(GLHIRT_fake_script)()
-local function LSMUN_fake_script() -- Main.Script2 
+coroutine.wrap(HEONS_fake_script)()
+local function OWHWOAB_fake_script() -- Main.Script2 
 	local script = Instance.new('LocalScript', Main)
 
 	function onButtonClicked()
@@ -228,14 +229,14 @@ local function LSMUN_fake_script() -- Main.Script2
 	
 	script.Parent.MouseButton1Click:connect(onButtonClicked)
 end
-coroutine.wrap(LSMUN_fake_script)()
-local function HQYQ_fake_script() -- SettingsFrame.Script 
+coroutine.wrap(OWHWOAB_fake_script)()
+local function FJDITGF_fake_script() -- SettingsFrame.Script 
 	local script = Instance.new('Script', SettingsFrame)
 
 	game.StarterGui.ResetPlayerGuiOnSpawn = false
 end
-coroutine.wrap(HQYQ_fake_script)()
-local function YBPKN_fake_script() -- TextButton_2.Script 
+coroutine.wrap(FJDITGF_fake_script)()
+local function GZDFSEQ_fake_script() -- TextButton_2.Script 
 	local script = Instance.new('LocalScript', TextButton_2)
 
 	function onButtonClicked()
@@ -251,8 +252,8 @@ local function YBPKN_fake_script() -- TextButton_2.Script
 	script.Parent.MouseButton1Click:connect(onButtonClicked)
 	
 end
-coroutine.wrap(YBPKN_fake_script)()
-local function TSDNJHG_fake_script() -- TextButton_2.Script2 
+coroutine.wrap(GZDFSEQ_fake_script)()
+local function OBVXNZX_fake_script() -- TextButton_2.Script2 
 	local script = Instance.new('LocalScript', TextButton_2)
 
 	function onButtonClicked()
@@ -267,8 +268,8 @@ local function TSDNJHG_fake_script() -- TextButton_2.Script2
 	script.Parent.MouseButton1Click:connect(onButtonClicked)
 	
 end
-coroutine.wrap(TSDNJHG_fake_script)()
-local function LMFHDZW_fake_script() -- TextButton_3.Script 
+coroutine.wrap(OBVXNZX_fake_script)()
+local function WWFAR_fake_script() -- TextButton_3.Script 
 	local script = Instance.new('LocalScript', TextButton_3)
 
 	function onButtonClicked()
@@ -286,8 +287,8 @@ local function LMFHDZW_fake_script() -- TextButton_3.Script
 	script.Parent.MouseButton1Click:connect(onButtonClicked)
 	
 end
-coroutine.wrap(LMFHDZW_fake_script)()
-local function LZIR_fake_script() -- TextButton_3.Script2 
+coroutine.wrap(WWFAR_fake_script)()
+local function PVZED_fake_script() -- TextButton_3.Script2 
 	local script = Instance.new('LocalScript', TextButton_3)
 
 	function onButtonClicked()
@@ -303,4 +304,4 @@ local function LZIR_fake_script() -- TextButton_3.Script2
 	script.Parent.MouseButton1Click:connect(onButtonClicked)
 	
 end
-coroutine.wrap(LZIR_fake_script)()
+coroutine.wrap(PVZED_fake_script)()
