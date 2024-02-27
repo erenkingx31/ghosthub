@@ -1,0 +1,232 @@
+local GHOSTEXPLOTGU = Instance.new("ScreenGui")
+local Animations = Instance.new("Frame")
+local Button1 = Instance.new("TextButton")
+local Button2 = Instance.new("TextButton")
+local Button3 = Instance.new("TextButton")
+local Button5 = Instance.new("TextButton")
+local Button4 = Instance.new("TextButton")
+local Button6 = Instance.new("TextButton")
+local UICorner = Instance.new("UICorner")
+local UIGradient = Instance.new("UIGradient")
+local Button2_2 = Instance.new("TextButton")
+local Close = Instance.new("TextButton")
+local OpenCloseButton = Instance.new("TextButton")
+
+GHOSTEXPLOTGU.Name = "GHOST EXPLOİT GUİ"
+GHOSTEXPLOTGU.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+
+Animations.Name = "Animations"
+Animations.Parent = GHOSTEXPLOTGU
+Animations.BackgroundColor3 = Color3.fromRGB(198, 220, 1)
+Animations.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Animations.Position = UDim2.new(0, 767, 0, 181)
+Animations.Size = UDim2.new(0, 119, 0, 146)
+Animations.ZIndex = 9
+
+Button1.Name = "Button1"
+Button1.Parent = Animations
+Button1.BackgroundColor3 = Color3.fromRGB(0, 25, 255)
+Button1.BackgroundTransparency = 1.000
+Button1.Size = UDim2.new(1, 0, 0, 20)
+Button1.ZIndex = 10
+Button1.Font = Enum.Font.SourceSans
+Button1.Text = "BackFl!p"
+Button1.TextColor3 = Color3.fromRGB(255, 255, 255)
+Button1.TextSize = 24.000
+Button1.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
+Button1.TextStrokeTransparency = 0.800
+
+Button2.Name = "Button2"
+Button2.Parent = Animations
+Button2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Button2.BackgroundTransparency = 1.000
+Button2.Position = UDim2.new(0, 0, 0, 20)
+Button2.Size = UDim2.new(1, 0, 0, 20)
+Button2.ZIndex = 10
+Button2.Font = Enum.Font.SourceSans
+Button2.Text = "Body"
+Button2.TextColor3 = Color3.fromRGB(255, 255, 255)
+Button2.TextSize = 24.000
+Button2.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
+Button2.TextStrokeTransparency = 0.800
+
+Button3.Name = "Button3"
+Button3.Parent = Animations
+Button3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Button3.BackgroundTransparency = 1.000
+Button3.Position = UDim2.new(0, 0, 0, 40)
+Button3.Size = UDim2.new(0.954445541, 0, 0, 20)
+Button3.ZIndex = 10
+Button3.Font = Enum.Font.SourceSans
+Button3.Text = "Upr!se"
+Button3.TextColor3 = Color3.fromRGB(255, 255, 255)
+Button3.TextSize = 24.000
+Button3.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
+Button3.TextStrokeTransparency = 0.800
+
+Button5.Name = "Button5"
+Button5.Parent = Animations
+Button5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Button5.BackgroundTransparency = 1.000
+Button5.Position = UDim2.new(0, 0, 0, 80)
+Button5.Size = UDim2.new(1, 0, 0, 20)
+Button5.ZIndex = 10
+Button5.Font = Enum.Font.SourceSans
+Button5.Text = "F!oss"
+Button5.TextColor3 = Color3.fromRGB(255, 255, 255)
+Button5.TextSize = 24.000
+Button5.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
+Button5.TextStrokeTransparency = 0.800
+
+Button4.Name = "Button4"
+Button4.Parent = Button5
+Button4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Button4.BackgroundTransparency = 1.000
+Button4.Position = UDim2.new(0, 0, 0, -19)
+Button4.Size = UDim2.new(1, 0, 0, 20)
+Button4.ZIndex = 10
+Button4.Font = Enum.Font.SourceSans
+Button4.Text = "G!dl!ke"
+Button4.TextColor3 = Color3.fromRGB(255, 255, 255)
+Button4.TextSize = 24.000
+Button4.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
+Button4.TextStrokeTransparency = 0.800
+
+Button6.Name = "Button6"
+Button6.Parent = Animations
+Button6.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Button6.BackgroundTransparency = 1.000
+Button6.Position = UDim2.new(0, -6, 0, 100)
+Button6.Size = UDim2.new(1, 0, 0, 20)
+Button6.ZIndex = 10
+Button6.Font = Enum.Font.SourceSans
+Button6.Text = "Haha"
+Button6.TextColor3 = Color3.fromRGB(255, 255, 255)
+Button6.TextSize = 24.000
+Button6.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
+Button6.TextStrokeTransparency = 0.800
+
+UICorner.CornerRadius = UDim.new(0.200000003, 2)
+UICorner.Parent = Animations
+
+UIGradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 128, 0)), ColorSequenceKeypoint.new(0.53, Color3.fromRGB(255, 191, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(243, 255, 0))}
+UIGradient.Parent = Animations
+
+Button2_2.Name = "Button2"
+Button2_2.Parent = Animations
+Button2_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Button2_2.BackgroundTransparency = 1.000
+Button2_2.Position = UDim2.new(0, 0, 0, 120)
+Button2_2.Size = UDim2.new(1, 0, 0, 20)
+Button2_2.ZIndex = 10
+Button2_2.Font = Enum.Font.SourceSans
+Button2_2.Text = "GHOST HUB"
+Button2_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+Button2_2.TextSize = 24.000
+Button2_2.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
+Button2_2.TextStrokeTransparency = 0.800
+
+Close.Name = "Close"
+Close.Parent = Animations
+Close.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Close.BackgroundTransparency = 1.000
+Close.Position = UDim2.new(0, 80, 0, 49)
+Close.Size = UDim2.new(0.386061221, 0, 0.196895435, 20)
+Close.ZIndex = 10
+Close.Font = Enum.Font.Unknown
+Close.LineHeight = 3.000
+Close.Text = "X"
+Close.TextColor3 = Color3.fromRGB(255, 255, 255)
+Close.TextScaled = true
+Close.TextSize = 24.000
+Close.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
+Close.TextStrokeTransparency = 0.800
+Close.TextWrapped = true
+
+OpenCloseButton.Name = "Open/Close Button"
+OpenCloseButton.Parent = GHOSTEXPLOTGU
+OpenCloseButton.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+OpenCloseButton.BorderColor3 = Color3.fromRGB(255, 0, 0)
+OpenCloseButton.Position = UDim2.new(0.922121882, 0, 0.548847377, 0)
+OpenCloseButton.Size = UDim2.new(0.0769751742, 0, 0.100000001, 0)
+OpenCloseButton.Style = Enum.ButtonStyle.RobloxRoundDefaultButton
+OpenCloseButton.Font = Enum.Font.SourceSansBold
+OpenCloseButton.Text = "Emote"
+OpenCloseButton.TextColor3 = Color3.fromRGB(255, 0, 0)
+OpenCloseButton.TextScaled = true
+OpenCloseButton.TextSize = 14.000
+OpenCloseButton.TextWrapped = true
+
+local function NPLQF_fake_script() -- Animations.AnimScript 
+	local script = Instance.new('LocalScript', Animations)
+
+	wait(1)
+	local frame=script.Parent
+	local user=game.Players.LocalPlayer
+	repeat wait() until user.Character local char=user.Character
+	local humanoid=char:WaitForChild("Humanoid")
+	local anim
+	function playanim(id)
+		if char~=nil and humanoid~=nil then
+			local id="rbxassetid://"..tostring(id)
+			local oldanim=char:FindFirstChild("LocalAnimation")
+			if anim~=nil then
+				anim:Stop()
+			end
+			if oldanim~=nil then
+				if oldanim.AnimationId==id then
+					oldanim:Destroy()
+					return
+				end
+				oldanim:Destroy()
+			end
+			local animation=Instance.new("Animation",char)
+			animation.Name="LocalAnimation"
+			animation.AnimationId=id
+			anim=humanoid:LoadAnimation(animation)
+			anim:Play()
+		end
+	end
+	local b1=frame.Button1
+	b1.MouseButton1Down:connect(function() playanim(b1.AnimID.Value) end)
+	local b2=frame.Button2
+	b2.MouseButton1Down:connect(function() playanim(b2.AnimID.Value) end)
+	local b3=frame.Button3
+	b3.MouseButton1Down:connect(function() playanim(b3.AnimID.Value) end)
+	local b4=frame.Button4
+	b4.MouseButton1Down:connect(function() playanim(b4.AnimID.Value) end)
+	local b5=frame.Button5
+	b5.MouseButton1Down:connect(function() playanim(b5.AnimID.Value) end)
+	local b6=frame.Button6
+	b6.MouseButton1Down:connect(function() playanim(b6.AnimID.Value) end)
+	
+	
+	
+end
+coroutine.wrap(NPLQF_fake_script)()
+local function BEVZBRJ_fake_script() -- Close.LocalScript 
+	local script = Instance.new('LocalScript', Close)
+
+	-- Script for closing a frame when a button is clicked
+	
+	local button = script.Parent  -- Assuming this script is a child of the button
+	local frame = button.Parent  -- Assuming the frame is the parent of the button
+	
+	button.MouseButton1Click:Connect(function()
+		frame.Visible = false
+	end)
+	
+end
+coroutine.wrap(BEVZBRJ_fake_script)()
+local function PYUP_fake_script() -- OpenCloseButton.LocalScript 
+	local script = Instance.new('LocalScript', OpenCloseButton)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		if script.Parent.Parent.Animations.Visible == false then
+			script.Parent.Parent.Animations.Visible = true
+		else
+			script.Parent.Parent.Animations.Visible = false
+		end
+	end)
+end
+coroutine.wrap(PYUP_fake_script)()
