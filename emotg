@@ -1,164 +1,335 @@
-local GHOSTEXPLOTGU = Instance.new("ScreenGui")
-local Animations = Instance.new("Frame")
-local Button1 = Instance.new("TextButton")
-local Button2 = Instance.new("TextButton")
-local Button3 = Instance.new("TextButton")
-local Button5 = Instance.new("TextButton")
-local Button4 = Instance.new("TextButton")
-local Button6 = Instance.new("TextButton")
-local UICorner = Instance.new("UICorner")
-local UIGradient = Instance.new("UIGradient")
-local Button2_2 = Instance.new("TextButton")
-local Close = Instance.new("TextButton")
-local OpenCloseButton = Instance.new("TextButton")
+local dancesghost = Instance.new("ScreenGui")
+local dFrame = Instance.new("ScrollingFrame")
+local jw = Instance.new("TextButton")
+local bbdance = Instance.new("TextButton")
+local sleep = Instance.new("TextButton")
+local fashionable = Instance.new("TextButton")
+local fasthands = Instance.new("TextButton")
+local shuffle = Instance.new("TextButton")
+local twirl = Instance.new("TextButton")
+local dorky = Instance.new("TextButton")
+local fancyfeet = Instance.new("TextButton")
+local cower = Instance.new("TextButton")
+local monkey = Instance.new("TextButton")
+local disco = Instance.new("TextButton")
+local dizzy = Instance.new("TextButton")
+local lined = Instance.new("TextButton")
+local rock = Instance.new("TextButton")
+local e = Instance.new("TextButton")
+local heroland = Instance.new("TextButton")
+local happy = Instance.new("TextButton")
+local shy = Instance.new("TextButton")
+local godlike = Instance.new("TextButton")
+local noobflex = Instance.new("TextButton")
+local t = Instance.new("TextButton")
+local bored = Instance.new("TextButton")
+local TextLabel = Instance.new("TextLabel")
 
-GHOSTEXPLOTGU.Name = "GHOST EXPLOİT GUİ"
-GHOSTEXPLOTGU.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+dancesghost.Name = "dances ghost"
+dancesghost.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+dancesghost.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
 
-Animations.Name = "Animations"
-Animations.Parent = GHOSTEXPLOTGU
-Animations.BackgroundColor3 = Color3.fromRGB(198, 220, 1)
-Animations.BorderColor3 = Color3.fromRGB(0, 0, 0)
-Animations.Position = UDim2.new(0, 767, 0, 181)
-Animations.Size = UDim2.new(0, 119, 0, 146)
-Animations.ZIndex = 9
+dFrame.Name = "dFrame"
+dFrame.Parent = dancesghost
+dFrame.Active = true
+dFrame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+dFrame.BackgroundTransparency = 0.700
+dFrame.BorderSizePixel = 0
+dFrame.Position = UDim2.new(-0.000764688128, 0, 0.39290902, 0)
+dFrame.Size = UDim2.new(0.100000001, 1, 0.24545455, 0)
+dFrame.VerticalScrollBarPosition = Enum.VerticalScrollBarPosition.Left
 
-Button1.Name = "Button1"
-Button1.Parent = Animations
-Button1.BackgroundColor3 = Color3.fromRGB(0, 25, 255)
-Button1.BackgroundTransparency = 1.000
-Button1.Size = UDim2.new(1, 0, 0, 20)
-Button1.ZIndex = 10
-Button1.Font = Enum.Font.SourceSans
-Button1.Text = "BackFl!p"
-Button1.TextColor3 = Color3.fromRGB(255, 255, 255)
-Button1.TextSize = 24.000
-Button1.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
-Button1.TextStrokeTransparency = 0.800
+jw.Name = "jw"
+jw.Parent = dFrame
+jw.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+jw.BackgroundTransparency = 0.750
+jw.BorderSizePixel = 0
+jw.Position = UDim2.new(0.135000005, 0, 0.257999986, 0)
+jw.Size = UDim2.new(0.799000025, 0, 0.0199999996, 0)
+jw.Font = Enum.Font.Gotham
+jw.Text = "Jumping Wave"
+jw.TextColor3 = Color3.fromRGB(255, 255, 255)
+jw.TextSize = 11.000
 
-Button2.Name = "Button2"
-Button2.Parent = Animations
-Button2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-Button2.BackgroundTransparency = 1.000
-Button2.Position = UDim2.new(0, 0, 0, 20)
-Button2.Size = UDim2.new(1, 0, 0, 20)
-Button2.ZIndex = 10
-Button2.Font = Enum.Font.SourceSans
-Button2.Text = "Body"
-Button2.TextColor3 = Color3.fromRGB(255, 255, 255)
-Button2.TextSize = 24.000
-Button2.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
-Button2.TextStrokeTransparency = 0.800
+bbdance.Name = "bbdance"
+bbdance.Parent = dFrame
+bbdance.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+bbdance.BackgroundTransparency = 0.750
+bbdance.BorderSizePixel = 0
+bbdance.Position = UDim2.new(0.135000005, 0, 0.0419999994, 0)
+bbdance.Size = UDim2.new(0.799000025, 0, 0.0199999996, 0)
+bbdance.Font = Enum.Font.Gotham
+bbdance.Text = "Baby Dance"
+bbdance.TextColor3 = Color3.fromRGB(255, 255, 255)
+bbdance.TextSize = 11.000
 
-Button3.Name = "Button3"
-Button3.Parent = Animations
-Button3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-Button3.BackgroundTransparency = 1.000
-Button3.Position = UDim2.new(0, 0, 0, 40)
-Button3.Size = UDim2.new(0.954445541, 0, 0, 20)
-Button3.ZIndex = 10
-Button3.Font = Enum.Font.SourceSans
-Button3.Text = "Upr!se"
-Button3.TextColor3 = Color3.fromRGB(255, 255, 255)
-Button3.TextSize = 24.000
-Button3.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
-Button3.TextStrokeTransparency = 0.800
+sleep.Name = "sleep"
+sleep.Parent = dFrame
+sleep.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+sleep.BackgroundTransparency = 0.750
+sleep.BorderSizePixel = 0
+sleep.Position = UDim2.new(0.135000005, 0, 0.0659999996, 0)
+sleep.Size = UDim2.new(0.799000025, 0, 0.0199999996, 0)
+sleep.Font = Enum.Font.Gotham
+sleep.Text = "Sleep"
+sleep.TextColor3 = Color3.fromRGB(255, 255, 255)
+sleep.TextSize = 11.000
 
-Button5.Name = "Button5"
-Button5.Parent = Animations
-Button5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-Button5.BackgroundTransparency = 1.000
-Button5.Position = UDim2.new(0, 0, 0, 80)
-Button5.Size = UDim2.new(1, 0, 0, 20)
-Button5.ZIndex = 10
-Button5.Font = Enum.Font.SourceSans
-Button5.Text = "F!oss"
-Button5.TextColor3 = Color3.fromRGB(255, 255, 255)
-Button5.TextSize = 24.000
-Button5.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
-Button5.TextStrokeTransparency = 0.800
+fashionable.Name = "fashionable"
+fashionable.Parent = dFrame
+fashionable.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+fashionable.BackgroundTransparency = 0.750
+fashionable.BorderSizePixel = 0
+fashionable.Position = UDim2.new(0.135000005, 0, 0.0900000036, 0)
+fashionable.Size = UDim2.new(0.799000025, 0, 0.0199999996, 0)
+fashionable.Font = Enum.Font.Gotham
+fashionable.Text = "Fashionable"
+fashionable.TextColor3 = Color3.fromRGB(255, 255, 255)
+fashionable.TextSize = 11.000
 
-Button4.Name = "Button4"
-Button4.Parent = Button5
-Button4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-Button4.BackgroundTransparency = 1.000
-Button4.Position = UDim2.new(0, 0, 0, -19)
-Button4.Size = UDim2.new(1, 0, 0, 20)
-Button4.ZIndex = 10
-Button4.Font = Enum.Font.SourceSans
-Button4.Text = "G!dl!ke"
-Button4.TextColor3 = Color3.fromRGB(255, 255, 255)
-Button4.TextSize = 24.000
-Button4.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
-Button4.TextStrokeTransparency = 0.800
+fasthands.Name = "fasthands"
+fasthands.Parent = dFrame
+fasthands.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+fasthands.BackgroundTransparency = 0.750
+fasthands.BorderSizePixel = 0
+fasthands.Position = UDim2.new(0.135000005, 0, 0.497999996, 0)
+fasthands.Size = UDim2.new(0.799000025, 0, 0.0199999996, 0)
+fasthands.Font = Enum.Font.Gotham
+fasthands.Text = "Fast Hands"
+fasthands.TextColor3 = Color3.fromRGB(255, 255, 255)
+fasthands.TextSize = 11.000
 
-Button6.Name = "Button6"
-Button6.Parent = Animations
-Button6.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-Button6.BackgroundTransparency = 1.000
-Button6.Position = UDim2.new(0, -6, 0, 100)
-Button6.Size = UDim2.new(1, 0, 0, 20)
-Button6.ZIndex = 10
-Button6.Font = Enum.Font.SourceSans
-Button6.Text = "Haha"
-Button6.TextColor3 = Color3.fromRGB(255, 255, 255)
-Button6.TextSize = 24.000
-Button6.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
-Button6.TextStrokeTransparency = 0.800
+shuffle.Name = "shuffle"
+shuffle.Parent = dFrame
+shuffle.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+shuffle.BackgroundTransparency = 0.750
+shuffle.BorderSizePixel = 0
+shuffle.Position = UDim2.new(0.135000005, 0, 0.137999997, 0)
+shuffle.Size = UDim2.new(0.799000025, 0, 0.0199999996, 0)
+shuffle.Font = Enum.Font.Gotham
+shuffle.Text = "Shuffle"
+shuffle.TextColor3 = Color3.fromRGB(255, 255, 255)
+shuffle.TextSize = 11.000
 
-UICorner.CornerRadius = UDim.new(0.200000003, 2)
-UICorner.Parent = Animations
+twirl.Name = "twirl"
+twirl.Parent = dFrame
+twirl.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+twirl.BackgroundTransparency = 0.750
+twirl.BorderSizePixel = 0
+twirl.Position = UDim2.new(0.135000005, 0, 0.162, 0)
+twirl.Size = UDim2.new(0.799000025, 0, 0.0199999996, 0)
+twirl.Font = Enum.Font.Gotham
+twirl.Text = "Twirl"
+twirl.TextColor3 = Color3.fromRGB(255, 255, 255)
+twirl.TextSize = 11.000
 
-UIGradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 128, 0)), ColorSequenceKeypoint.new(0.53, Color3.fromRGB(255, 191, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(243, 255, 0))}
-UIGradient.Parent = Animations
+dorky.Name = "dorky"
+dorky.Parent = dFrame
+dorky.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+dorky.BackgroundTransparency = 0.750
+dorky.BorderSizePixel = 0
+dorky.Position = UDim2.new(0.135000005, 0, 0.186000004, 0)
+dorky.Size = UDim2.new(0.799000025, 0, 0.0199999996, 0)
+dorky.Font = Enum.Font.Gotham
+dorky.Text = "Dorky Dance"
+dorky.TextColor3 = Color3.fromRGB(255, 255, 255)
+dorky.TextSize = 11.000
 
-Button2_2.Name = "Button2"
-Button2_2.Parent = Animations
-Button2_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-Button2_2.BackgroundTransparency = 1.000
-Button2_2.Position = UDim2.new(0, 0, 0, 120)
-Button2_2.Size = UDim2.new(1, 0, 0, 20)
-Button2_2.ZIndex = 10
-Button2_2.Font = Enum.Font.SourceSans
-Button2_2.Text = "GHOST HUB"
-Button2_2.TextColor3 = Color3.fromRGB(255, 255, 255)
-Button2_2.TextSize = 24.000
-Button2_2.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
-Button2_2.TextStrokeTransparency = 0.800
+fancyfeet.Name = "fancyfeet"
+fancyfeet.Parent = dFrame
+fancyfeet.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+fancyfeet.BackgroundTransparency = 0.750
+fancyfeet.BorderSizePixel = 0
+fancyfeet.Position = UDim2.new(0.135000005, 0, 0.209999993, 0)
+fancyfeet.Size = UDim2.new(0.799000025, 0, 0.0199999996, 0)
+fancyfeet.Font = Enum.Font.Gotham
+fancyfeet.Text = "Fancy Feet"
+fancyfeet.TextColor3 = Color3.fromRGB(255, 255, 255)
+fancyfeet.TextSize = 11.000
 
-Close.Name = "Close"
-Close.Parent = Animations
-Close.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-Close.BackgroundTransparency = 1.000
-Close.Position = UDim2.new(0, 80, 0, 49)
-Close.Size = UDim2.new(0.386061221, 0, 0.196895435, 20)
-Close.ZIndex = 10
-Close.Font = Enum.Font.Unknown
-Close.LineHeight = 3.000
-Close.Text = "X"
-Close.TextColor3 = Color3.fromRGB(255, 255, 255)
-Close.TextScaled = true
-Close.TextSize = 24.000
-Close.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
-Close.TextStrokeTransparency = 0.800
-Close.TextWrapped = true
+cower.Name = "cower"
+cower.Parent = dFrame
+cower.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+cower.BackgroundTransparency = 0.750
+cower.BorderSizePixel = 0
+cower.Position = UDim2.new(0.135000005, 0, 0.233999997, 0)
+cower.Size = UDim2.new(0.799000025, 0, 0.0199999996, 0)
+cower.Font = Enum.Font.Gotham
+cower.Text = "Cower"
+cower.TextColor3 = Color3.fromRGB(255, 255, 255)
+cower.TextSize = 11.000
 
-OpenCloseButton.Name = "Open/Close Button"
-OpenCloseButton.Parent = GHOSTEXPLOTGU
-OpenCloseButton.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
-OpenCloseButton.BorderColor3 = Color3.fromRGB(255, 0, 0)
-OpenCloseButton.Position = UDim2.new(0.922121882, 0, 0.548847377, 0)
-OpenCloseButton.Size = UDim2.new(0.0769751742, 0, 0.100000001, 0)
-OpenCloseButton.Style = Enum.ButtonStyle.RobloxRoundDefaultButton
-OpenCloseButton.Font = Enum.Font.SourceSansBold
-OpenCloseButton.Text = "Emote"
-OpenCloseButton.TextColor3 = Color3.fromRGB(255, 0, 0)
-OpenCloseButton.TextScaled = true
-OpenCloseButton.TextSize = 14.000
-OpenCloseButton.TextWrapped = true
+monkey.Name = "monkey"
+monkey.Parent = dFrame
+monkey.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+monkey.BackgroundTransparency = 0.750
+monkey.BorderSizePixel = 0
+monkey.Position = UDim2.new(0.134671912, 0, 0.0182388611, 0)
+monkey.Size = UDim2.new(0.799000025, 0, 0.0199999996, 0)
+monkey.Font = Enum.Font.Gotham
+monkey.Text = "Monkey"
+monkey.TextColor3 = Color3.fromRGB(255, 255, 255)
+monkey.TextSize = 11.000
 
-local function NPLQF_fake_script() -- Animations.AnimScript 
-	local script = Instance.new('LocalScript', Animations)
+disco.Name = "disco"
+disco.Parent = dFrame
+disco.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+disco.BackgroundTransparency = 0.750
+disco.BorderSizePixel = 0
+disco.Position = UDim2.new(0.135000005, 0, 0.282000005, 0)
+disco.Size = UDim2.new(0.799000025, 0, 0.0199999996, 0)
+disco.Font = Enum.Font.Gotham
+disco.Text = "Side To Side"
+disco.TextColor3 = Color3.fromRGB(255, 255, 255)
+disco.TextSize = 11.000
+
+dizzy.Name = "dizzy"
+dizzy.Parent = dFrame
+dizzy.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+dizzy.BackgroundTransparency = 0.750
+dizzy.BorderSizePixel = 0
+dizzy.Position = UDim2.new(0.135000005, 0, 0.305999994, 0)
+dizzy.Size = UDim2.new(0.799000025, 0, 0.0199999996, 0)
+dizzy.Font = Enum.Font.Gotham
+dizzy.Text = "Dizzy"
+dizzy.TextColor3 = Color3.fromRGB(255, 255, 255)
+dizzy.TextSize = 11.000
+
+lined.Name = "lined"
+lined.Parent = dFrame
+lined.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+lined.BackgroundTransparency = 0.750
+lined.BorderSizePixel = 0
+lined.Position = UDim2.new(0.135000005, 0, 0.330000013, 0)
+lined.Size = UDim2.new(0.799000025, 0, 0.0199999996, 0)
+lined.Font = Enum.Font.Gotham
+lined.Text = "Line Dance"
+lined.TextColor3 = Color3.fromRGB(255, 255, 255)
+lined.TextSize = 11.000
+
+rock.Name = "rock"
+rock.Parent = dFrame
+rock.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+rock.BackgroundTransparency = 0.750
+rock.BorderSizePixel = 0
+rock.Position = UDim2.new(0.135000005, 0, 0.40200001, 0)
+rock.Size = UDim2.new(0.799000025, 0, 0.0199999996, 0)
+rock.Font = Enum.Font.Gotham
+rock.Text = "Top Rock"
+rock.TextColor3 = Color3.fromRGB(255, 255, 255)
+rock.TextSize = 11.000
+
+e.Name = "e"
+e.Parent = dFrame
+e.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+e.BackgroundTransparency = 0.750
+e.BorderSizePixel = 0
+e.Position = UDim2.new(0.135000005, 0, 0.546000004, 0)
+e.Size = UDim2.new(0.799000025, 0, 0.0199999996, 0)
+e.Font = Enum.Font.Gotham
+e.Text = "E Pose"
+e.TextColor3 = Color3.fromRGB(255, 255, 255)
+e.TextSize = 11.000
+
+heroland.Name = "heroland"
+heroland.Parent = dFrame
+heroland.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+heroland.BackgroundTransparency = 0.750
+heroland.BorderSizePixel = 0
+heroland.Position = UDim2.new(0.135000005, 0, 0.354000002, 0)
+heroland.Size = UDim2.new(0.799000025, 0, 0.0199999996, 0)
+heroland.Font = Enum.Font.Gotham
+heroland.Text = "Hero Landing"
+heroland.TextColor3 = Color3.fromRGB(255, 255, 255)
+heroland.TextSize = 11.000
+
+happy.Name = "happy"
+happy.Parent = dFrame
+happy.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+happy.BackgroundTransparency = 0.750
+happy.BorderSizePixel = 0
+happy.Position = UDim2.new(0.135000005, 0, 0.449999988, 0)
+happy.Size = UDim2.new(0.799000025, 0, 0.0199999996, 0)
+happy.Font = Enum.Font.Gotham
+happy.Text = "Happy"
+happy.TextColor3 = Color3.fromRGB(255, 255, 255)
+happy.TextSize = 11.000
+
+shy.Name = "shy"
+shy.Parent = dFrame
+shy.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+shy.BackgroundTransparency = 0.750
+shy.BorderSizePixel = 0
+shy.Position = UDim2.new(0.135000005, 0, 0.522000015, 0)
+shy.Size = UDim2.new(0.799000025, 0, 0.0199999996, 0)
+shy.Font = Enum.Font.Gotham
+shy.Text = "Shy"
+shy.TextColor3 = Color3.fromRGB(255, 255, 255)
+shy.TextSize = 11.000
+
+godlike.Name = "godlike"
+godlike.Parent = dFrame
+godlike.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+godlike.BackgroundTransparency = 0.750
+godlike.BorderSizePixel = 0
+godlike.Position = UDim2.new(0.135000005, 0, 0.377999991, 0)
+godlike.Size = UDim2.new(0.799000025, 0, 0.0199999996, 0)
+godlike.Font = Enum.Font.Gotham
+godlike.Text = "Godlike"
+godlike.TextColor3 = Color3.fromRGB(255, 255, 255)
+godlike.TextSize = 11.000
+
+noobflex.Name = "noobflex"
+noobflex.Parent = dFrame
+noobflex.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+noobflex.BackgroundTransparency = 0.750
+noobflex.BorderSizePixel = 0
+noobflex.Position = UDim2.new(0.135000005, 0, 0.425999999, 0)
+noobflex.Size = UDim2.new(0.799000025, 0, 0.0199999996, 0)
+noobflex.Font = Enum.Font.Gotham
+noobflex.Text = "Body Builder"
+noobflex.TextColor3 = Color3.fromRGB(255, 255, 255)
+noobflex.TextSize = 11.000
+
+t.Name = "t"
+t.Parent = dFrame
+t.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+t.BackgroundTransparency = 0.750
+t.BorderSizePixel = 0
+t.Position = UDim2.new(0.135000005, 0, 0.474000007, 0)
+t.Size = UDim2.new(0.799000025, 0, 0.0199999996, 0)
+t.Font = Enum.Font.Gotham
+t.Text = "T Pose"
+t.TextColor3 = Color3.fromRGB(255, 255, 255)
+t.TextSize = 11.000
+
+bored.Name = "bored"
+bored.Parent = dFrame
+bored.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+bored.BackgroundTransparency = 0.750
+bored.BorderSizePixel = 0
+bored.Position = UDim2.new(0.135000005, 0, 0.114, 0)
+bored.Size = UDim2.new(0.799000025, 0, 0.0199999996, 0)
+bored.Font = Enum.Font.Gotham
+bored.Text = "Bored"
+bored.TextColor3 = Color3.fromRGB(255, 255, 255)
+bored.TextSize = 11.000
+
+TextLabel.Parent = dancesghost
+TextLabel.BackgroundColor3 = Color3.fromRGB(78, 204, 90)
+TextLabel.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel.BorderSizePixel = 5
+TextLabel.Position = UDim2.new(-0.000877239334, 0, 0.324965507, 0)
+TextLabel.Size = UDim2.new(0, 109, 0, 33)
+TextLabel.Font = Enum.Font.Unknown
+TextLabel.Text = "Emotes Ghost"
+TextLabel.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel.TextScaled = true
+TextLabel.TextSize = 30.000
+TextLabel.TextWrapped = true
+
+local function YFEQK_fake_script() -- dFrame.AnimScript 
+	local script = Instance.new('LocalScript', dFrame)
 
 	wait(1)
 	local frame=script.Parent
@@ -179,6 +350,7 @@ local function NPLQF_fake_script() -- Animations.AnimScript
 					return
 				end
 				oldanim:Destroy()
+			
 			end
 			local animation=Instance.new("Animation",char)
 			animation.Name="LocalAnimation"
@@ -187,46 +359,51 @@ local function NPLQF_fake_script() -- Animations.AnimScript
 			anim:Play()
 		end
 	end
-	local b1=frame.Button1
+	local b1=frame.bbdance
 	b1.MouseButton1Down:connect(function() playanim(b1.AnimID.Value) end)
-	local b2=frame.Button2
+	local b2=frame.bored
 	b2.MouseButton1Down:connect(function() playanim(b2.AnimID.Value) end)
-	local b3=frame.Button3
+	local b3=frame.cower
 	b3.MouseButton1Down:connect(function() playanim(b3.AnimID.Value) end)
-	local b4=frame.Button4
+	local b4=frame.disco
 	b4.MouseButton1Down:connect(function() playanim(b4.AnimID.Value) end)
-	local b5=frame.Button5
+	local b5=frame.dizzy
 	b5.MouseButton1Down:connect(function() playanim(b5.AnimID.Value) end)
-	local b6=frame.Button6
+	local b6=frame.dorky
 	b6.MouseButton1Down:connect(function() playanim(b6.AnimID.Value) end)
-	
-	
-	
+	local b7=frame.e
+	b7.MouseButton1Down:connect(function() playanim(b7.AnimID.Value) end)
+	local b8=frame.fancyfeet
+	b8.MouseButton1Down:connect(function() playanim(b8.AnimID.Value) end)
+	local b9=frame.fashionable
+	b9.MouseButton1Down:connect(function() playanim(b9.AnimID.Value) end)
+	local b10=frame.fasthands
+	b10.MouseButton1Down:connect(function() playanim(b10.AnimID.Value) end)
+	local b11=frame.godlike
+	b11.MouseButton1Down:connect(function() playanim(b11.AnimID.Value) end)
+	local b12=frame.happy
+	b12.MouseButton1Down:connect(function() playanim(b12.AnimID.Value) end)
+	local b13=frame.heroland
+	b13.MouseButton1Down:connect(function() playanim(b13.AnimID.Value) end)
+	local b16=frame.jw
+	b16.MouseButton1Down:connect(function() playanim(b16.AnimID.Value) end)
+	local b17=frame.lined
+	b17.MouseButton1Down:connect(function() playanim(b17.AnimID.Value) end)
+	local b18=frame.monkey
+	b18.MouseButton1Down:connect(function() playanim(b18.AnimID.Value) end)
+	local b19=frame.noobflex
+	b19.MouseButton1Down:connect(function() playanim(b19.AnimID.Value) end)
+	local b20=frame.rock
+	b20.MouseButton1Down:connect(function() playanim(b20.AnimID.Value) end)
+	local b21=frame.shuffle
+	b21.MouseButton1Down:connect(function() playanim(b21.AnimID.Value) end)
+	local b22=frame.shy
+	b22.MouseButton1Down:connect(function() playanim(b22.AnimID.Value) end)
+	local b23=frame.sleep
+	b23.MouseButton1Down:connect(function() playanim(b23.AnimID.Value) end)
+	local b24=frame.t
+	b24.MouseButton1Down:connect(function() playanim(b24.AnimID.Value) end)
+	local b25=frame.twirl
+	b25.MouseButton1Down:connect(function() playanim(b25.AnimID.Value) end)
 end
-coroutine.wrap(NPLQF_fake_script)()
-local function BEVZBRJ_fake_script() -- Close.LocalScript 
-	local script = Instance.new('LocalScript', Close)
-
-	-- Script for closing a frame when a button is clicked
-	
-	local button = script.Parent  -- Assuming this script is a child of the button
-	local frame = button.Parent  -- Assuming the frame is the parent of the button
-	
-	button.MouseButton1Click:Connect(function()
-		frame.Visible = false
-	end)
-	
-end
-coroutine.wrap(BEVZBRJ_fake_script)()
-local function PYUP_fake_script() -- OpenCloseButton.LocalScript 
-	local script = Instance.new('LocalScript', OpenCloseButton)
-
-	script.Parent.MouseButton1Click:Connect(function()
-		if script.Parent.Parent.Animations.Visible == false then
-			script.Parent.Parent.Animations.Visible = true
-		else
-			script.Parent.Parent.Animations.Visible = false
-		end
-	end)
-end
-coroutine.wrap(PYUP_fake_script)()
+coroutine.wrap(YFEQK_fake_script)()
