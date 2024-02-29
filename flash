@@ -1,0 +1,441 @@
+local flash = Instance.new("ScreenGui")
+local TextButton = Instance.new("TextButton")
+local ImageButton = Instance.new("ImageButton")
+local UICorner = Instance.new("UICorner")
+local Frame = Instance.new("Frame")
+local UICorner_2 = Instance.new("UICorner")
+local top = Instance.new("Frame")
+local UICorner_3 = Instance.new("UICorner")
+local top_2 = Instance.new("Frame")
+local UICorner_4 = Instance.new("UICorner")
+local top_3 = Instance.new("Frame")
+local UICorner_5 = Instance.new("UICorner")
+local TextLabel = Instance.new("TextLabel")
+local TextLabel_2 = Instance.new("TextLabel")
+local ImageLabel = Instance.new("ImageLabel")
+local UICorner_6 = Instance.new("UICorner")
+local ImageLabel_2 = Instance.new("ImageLabel")
+local UICorner_7 = Instance.new("UICorner")
+local home = Instance.new("Frame")
+local UICorner_8 = Instance.new("UICorner")
+local top_4 = Instance.new("Frame")
+local UICorner_9 = Instance.new("UICorner")
+local TextButton_2 = Instance.new("TextButton")
+local UICorner_10 = Instance.new("UICorner")
+local ImageLabel_3 = Instance.new("ImageLabel")
+local TextLabel_3 = Instance.new("TextLabel")
+local TextLabel_4 = Instance.new("TextLabel")
+local ImageLabel_4 = Instance.new("ImageLabel")
+local button = Instance.new("TextButton")
+local UICorner_11 = Instance.new("UICorner")
+local button_2 = Instance.new("TextButton")
+local UICorner_12 = Instance.new("UICorner")
+local ImageLabel_5 = Instance.new("ImageLabel")
+local executor = Instance.new("Frame")
+local UICorner_13 = Instance.new("UICorner")
+local FLASH = Instance.new("TextBox")
+local UICorner_14 = Instance.new("UICorner")
+local button_3 = Instance.new("TextButton")
+local UICorner_15 = Instance.new("UICorner")
+local button_4 = Instance.new("TextButton")
+local UICorner_16 = Instance.new("UICorner")
+local TextButton_3 = Instance.new("TextButton")
+
+flash.Name = "flash"
+flash.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+flash.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+TextButton.Parent = flash
+TextButton.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+TextButton.Position = UDim2.new(0.474341422, 0, -0.0189496558, 0)
+TextButton.Size = UDim2.new(0, 89, 0, 83)
+TextButton.Font = Enum.Font.SourceSans
+TextButton.Text = ""
+TextButton.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton.TextSize = 14.000
+
+ImageButton.Parent = TextButton
+ImageButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageButton.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ImageButton.BorderSizePixel = 0
+ImageButton.Position = UDim2.new(-0.00405266602, 0, -0.000951192458, 0)
+ImageButton.Size = UDim2.new(0, 88, 0, 83)
+ImageButton.Image = "rbxassetid://16554605926"
+
+UICorner.CornerRadius = UDim.new(1, 0)
+UICorner.Parent = ImageButton
+
+Frame.Parent = flash
+Frame.BackgroundColor3 = Color3.fromRGB(56, 56, 56)
+Frame.Position = UDim2.new(0.121560954, 0, 0.167713866, 0)
+Frame.Size = UDim2.new(0, 651, 0, 395)
+
+UICorner_2.Parent = Frame
+
+top.Name = "top"
+top.Parent = Frame
+top.BackgroundColor3 = Color3.fromRGB(26, 26, 26)
+top.Position = UDim2.new(-0.00873295218, 0, 0.00253164559, 0)
+top.Size = UDim2.new(0, 185, 0, 394)
+
+UICorner_3.Parent = top
+
+top_2.Name = "top"
+top_2.Parent = Frame
+top_2.BackgroundColor3 = Color3.fromRGB(26, 26, 26)
+top_2.Position = UDim2.new(0.281674981, 0, 0.0199615099, 0)
+top_2.Size = UDim2.new(0, 458, 0, 59)
+
+UICorner_4.Parent = top_2
+
+top_3.Name = "top"
+top_3.Parent = Frame
+top_3.BackgroundColor3 = Color3.fromRGB(85, 0, 0)
+top_3.Position = UDim2.new(0.0640183687, 0, 0.252872914, 0)
+top_3.Size = UDim2.new(0, 101, 0, 9)
+
+UICorner_5.Parent = top_3
+
+TextLabel.Parent = Frame
+TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.BackgroundTransparency = 1.000
+TextLabel.Position = UDim2.new(0.0998339802, 0, 0.0808539689, 0)
+TextLabel.Size = UDim2.new(0.12556006, 0, 0.122924805, 0)
+TextLabel.Font = Enum.Font.Unknown
+TextLabel.Text = "User Name"
+TextLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.TextScaled = true
+TextLabel.TextSize = 14.000
+TextLabel.TextWrapped = true
+
+TextLabel_2.Parent = Frame
+TextLabel_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_2.BackgroundTransparency = 1.000
+TextLabel_2.Position = UDim2.new(0.373942196, 0, 0.0454109274, 0)
+TextLabel_2.Size = UDim2.new(0.14143309, 0, 0.100139998, 0)
+TextLabel_2.Font = Enum.Font.Unknown
+TextLabel_2.Text = "UserName"
+TextLabel_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_2.TextScaled = true
+TextLabel_2.TextSize = 14.000
+TextLabel_2.TextWrapped = true
+
+ImageLabel.Parent = Frame
+ImageLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageLabel.BackgroundTransparency = 1.000
+ImageLabel.Position = UDim2.new(0.0173952617, 0, 0.0645382628, 0)
+ImageLabel.Size = UDim2.new(0, 63, 0, 61)
+ImageLabel.Image = "rbxasset://textures/ui/GuiImagePlaceholder.png"
+
+UICorner_6.CornerRadius = UDim.new(1, 0)
+UICorner_6.Parent = ImageLabel
+
+ImageLabel_2.Parent = Frame
+ImageLabel_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageLabel_2.BackgroundTransparency = 1.000
+ImageLabel_2.Position = UDim2.new(0.293551624, 0, 0.0392218083, 0)
+ImageLabel_2.Size = UDim2.new(0, 41, 0, 42)
+ImageLabel_2.Image = "rbxasset://textures/ui/GuiImagePlaceholder.png"
+
+UICorner_7.CornerRadius = UDim.new(1, 0)
+UICorner_7.Parent = ImageLabel_2
+
+home.Name = "home"
+home.Parent = Frame
+home.BackgroundColor3 = Color3.fromRGB(56, 56, 56)
+home.Position = UDim2.new(0.275445282, 0, 0.20377861, 0)
+home.Size = UDim2.new(0, 470, 0, 313)
+
+UICorner_8.Parent = home
+
+top_4.Name = "top"
+top_4.Parent = home
+top_4.BackgroundColor3 = Color3.fromRGB(26, 26, 26)
+top_4.Position = UDim2.new(0.0171397105, 0, 0.00638997136, 0)
+top_4.Size = UDim2.new(0, 449, 0, 300)
+
+UICorner_9.Parent = top_4
+
+TextButton_2.Parent = home
+TextButton_2.BackgroundColor3 = Color3.fromRGB(224, 255, 19)
+TextButton_2.Position = UDim2.new(0.432682365, 0, 0.431492805, 0)
+TextButton_2.Size = UDim2.new(0, 132, 0, 34)
+TextButton_2.Font = Enum.Font.SourceSansBold
+TextButton_2.Text = "Keyi Güncelle"
+TextButton_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_2.TextScaled = true
+TextButton_2.TextSize = 14.000
+TextButton_2.TextWrapped = true
+
+UICorner_10.Parent = TextButton_2
+
+ImageLabel_3.Parent = home
+ImageLabel_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageLabel_3.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ImageLabel_3.BorderSizePixel = 0
+ImageLabel_3.Position = UDim2.new(0.0255319141, 0, 0.0415335447, 0)
+ImageLabel_3.Size = UDim2.new(0, 175, 0, 159)
+ImageLabel_3.Image = "rbxassetid://16554605926"
+
+TextLabel_3.Parent = home
+TextLabel_3.Active = true
+TextLabel_3.BackgroundColor3 = Color3.fromRGB(26, 26, 26)
+TextLabel_3.BorderSizePixel = 0
+TextLabel_3.Position = UDim2.new(0.397872329, 0, 0.0619560443, 0)
+TextLabel_3.Size = UDim2.new(0, 162, 0, 98)
+TextLabel_3.Font = Enum.Font.SourceSansBold
+TextLabel_3.Text = "KEY TİME :"
+TextLabel_3.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_3.TextSize = 30.000
+TextLabel_3.TextWrapped = true
+
+TextLabel_4.Parent = home
+TextLabel_4.Active = true
+TextLabel_4.BackgroundColor3 = Color3.fromRGB(26, 26, 26)
+TextLabel_4.BorderSizePixel = 0
+TextLabel_4.Position = UDim2.new(0.397872329, 0, 0.27957651, 0)
+TextLabel_4.Size = UDim2.new(0, 162, 0, 29)
+TextLabel_4.Font = Enum.Font.SourceSansBold
+TextLabel_4.Text = "UNKNOWN"
+TextLabel_4.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_4.TextSize = 30.000
+TextLabel_4.TextWrapped = true
+
+ImageLabel_4.Parent = Frame
+ImageLabel_4.BackgroundTransparency = 1.000
+ImageLabel_4.BorderSizePixel = 0
+ImageLabel_4.Position = UDim2.new(0.011307396, 0, 0.4506329, 0)
+ImageLabel_4.Size = UDim2.new(0, 34, 0, 38)
+ImageLabel_4.Image = "http://www.roblox.com/asset/?id=6031763425"
+
+button.Name = "button"
+button.Parent = Frame
+button.BackgroundColor3 = Color3.fromRGB(43, 43, 43)
+button.Position = UDim2.new(0.0148062762, 0, 0.4506329, 0)
+button.Size = UDim2.new(0, 153, 0, 45)
+button.Font = Enum.Font.SourceSansBold
+button.Text = "     Exploit"
+button.TextColor3 = Color3.fromRGB(255, 255, 255)
+button.TextScaled = true
+button.TextSize = 14.000
+button.TextWrapped = true
+
+UICorner_11.Parent = button
+
+button_2.Name = "button"
+button_2.Parent = Frame
+button_2.BackgroundColor3 = Color3.fromRGB(43, 43, 43)
+button_2.Position = UDim2.new(0.0148062762, 0, 0.32911393, 0)
+button_2.Size = UDim2.new(0, 153, 0, 38)
+button_2.Font = Enum.Font.SourceSansBold
+button_2.Text = "Ev"
+button_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+button_2.TextScaled = true
+button_2.TextSize = 14.000
+button_2.TextWrapped = true
+
+UICorner_12.Parent = button_2
+
+ImageLabel_5.Parent = Frame
+ImageLabel_5.BackgroundTransparency = 1.000
+ImageLabel_5.BorderSizePixel = 0
+ImageLabel_5.Position = UDim2.new(0.0161716919, 0, 0.32911393, 0)
+ImageLabel_5.Size = UDim2.new(0, 41, 0, 35)
+ImageLabel_5.Image = "http://www.roblox.com/asset/?id=6026568198"
+
+executor.Name = "executor"
+executor.Parent = Frame
+executor.BackgroundColor3 = Color3.fromRGB(56, 56, 56)
+executor.Position = UDim2.new(0.275445253, 0, 0.203622162, 0)
+executor.Size = UDim2.new(0, 471, 0, 314)
+executor.Visible = false
+
+UICorner_13.Parent = executor
+
+FLASH.Name = "FLASH"
+FLASH.Parent = executor
+FLASH.BackgroundColor3 = Color3.fromRGB(26, 26, 26)
+FLASH.Position = UDim2.new(0.0259984396, 0, 0.0191082805, 0)
+FLASH.Size = UDim2.new(0, 423, 0, 205)
+FLASH.Font = Enum.Font.SourceSansBold
+FLASH.PlaceholderColor3 = Color3.fromRGB(255, 255, 255)
+FLASH.PlaceholderText = "FLASH"
+FLASH.Text = ""
+FLASH.TextColor3 = Color3.fromRGB(255, 255, 255)
+FLASH.TextSize = 25.000
+FLASH.TextWrapped = true
+FLASH.TextXAlignment = Enum.TextXAlignment.Left
+FLASH.TextYAlignment = Enum.TextYAlignment.Top
+
+UICorner_14.Parent = FLASH
+
+button_3.Name = "button"
+button_3.Parent = executor
+button_3.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+button_3.Position = UDim2.new(0.0676059499, 0, 0.721825361, 0)
+button_3.Size = UDim2.new(0, 134, 0, 46)
+button_3.Font = Enum.Font.SourceSansBold
+button_3.Text = "Executors"
+button_3.TextColor3 = Color3.fromRGB(255, 255, 255)
+button_3.TextScaled = true
+button_3.TextSize = 14.000
+button_3.TextWrapped = true
+
+UICorner_15.Parent = button_3
+
+button_4.Name = "button"
+button_4.Parent = executor
+button_4.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+button_4.Position = UDim2.new(0.373201817, 0, 0.721825361, 0)
+button_4.Size = UDim2.new(0, 144, 0, 46)
+button_4.Font = Enum.Font.SourceSansBold
+button_4.Text = "Clear"
+button_4.TextColor3 = Color3.fromRGB(255, 255, 255)
+button_4.TextScaled = true
+button_4.TextSize = 14.000
+button_4.TextWrapped = true
+
+UICorner_16.Parent = button_4
+
+TextButton_3.Parent = Frame
+TextButton_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_3.BackgroundTransparency = 1.000
+TextButton_3.Position = UDim2.new(0.915489078, 0, 0.0550321676, 0)
+TextButton_3.Size = UDim2.new(0, 46, 0, 41)
+TextButton_3.Font = Enum.Font.SourceSansBold
+TextButton_3.Text = "x"
+TextButton_3.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_3.TextScaled = true
+TextButton_3.TextSize = 61.000
+TextButton_3.TextWrapped = true
+
+local function TUHSUQW_fake_script() -- flash.LocalScript 
+	local script = Instance.new('LocalScript', flash)
+
+	frame = script.Parent.Frame -- Take out {}s, and put name of frame
+	frame.Draggable = true
+	frame.Active = true
+	frame.Selectable = true
+end
+coroutine.wrap(TUHSUQW_fake_script)()
+local function KZCSSC_fake_script() -- flash.LocalScript 
+	local script = Instance.new('LocalScript', flash)
+
+	frame = script.Parent.TextButton -- Take out {}s, and put name of frame
+	frame.Draggable = true
+	frame.Active = true
+	frame.Selectable = true
+end
+coroutine.wrap(KZCSSC_fake_script)()
+local function HLJS_fake_script() -- ImageButton.LocalScript 
+	local script = Instance.new('LocalScript', ImageButton)
+
+	local frame = script.Parent.Parent.Frame  -- change “Test” to the name of the frane
+	local open = false
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		if frame.Visible == false then
+			frame.Visible = true
+		end
+	end)
+end
+coroutine.wrap(HLJS_fake_script)()
+local function EQVU_fake_script() -- ImageButton.LocalScript 
+	local script = Instance.new('LocalScript', ImageButton)
+
+	local button = script.Parent
+	
+	local function onInput(input)
+		if input.UserInputType == Enum.UserInputType.MouseMovement then
+			-- Update the position of the button based on the mouse movement
+			button.Position = UDim2.new(0, input.Position.X, 0, input.Position.Y)
+		end
+	end
+	
+	button.InputChanged:Connect(onInput)
+	
+end
+coroutine.wrap(EQVU_fake_script)()
+local function VNDERFG_fake_script() -- TextLabel.LocalScript 
+	local script = Instance.new('LocalScript', TextLabel)
+
+	script.Parent.Text = ""..game.Players.LocalPlayer.Name
+	
+	
+	
+	
+end
+coroutine.wrap(VNDERFG_fake_script)()
+local function KABAT_fake_script() -- TextLabel_2.LocalScript 
+	local script = Instance.new('LocalScript', TextLabel_2)
+
+	script.Parent.Text = ""..game.Players.LocalPlayer.Name
+	
+	
+	
+	
+end
+coroutine.wrap(KABAT_fake_script)()
+local function GZVJEI_fake_script() -- ImageLabel.LocalScript 
+	local script = Instance.new('LocalScript', ImageLabel)
+
+	local Players = game:getService("Players")
+	local plr = Players.LocalPlayer
+	local userId = plr.UserId
+	local thumbType = Enum.ThumbnailType.HeadShot
+	local thumbSize = Enum.ThumbnailSize.Size420x420
+	local content, isReady = Players:GetUserThumbnailAsync(userId,thumbType,thumbSize)
+	
+	local imageLabel = script.Parent
+	imageLabel.Image = content
+end
+coroutine.wrap(GZVJEI_fake_script)()
+local function GJCIHOR_fake_script() -- ImageLabel_2.LocalScript 
+	local script = Instance.new('LocalScript', ImageLabel_2)
+
+	local Players = game:getService("Players")
+	local plr = Players.LocalPlayer
+	local userId = plr.UserId
+	local thumbType = Enum.ThumbnailType.HeadShot
+	local thumbSize = Enum.ThumbnailSize.Size420x420
+	local content, isReady = Players:GetUserThumbnailAsync(userId,thumbType,thumbSize)
+	
+	local imageLabel = script.Parent
+	imageLabel.Image = content
+end
+coroutine.wrap(GJCIHOR_fake_script)()
+local function NYIGXH_fake_script() -- button.LocalScript 
+	local script = Instance.new('LocalScript', button)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.executor.Visible = not script.Parent.Parent.executor.Visible
+	end)
+end
+coroutine.wrap(NYIGXH_fake_script)()
+local function RJRQZDU_fake_script() -- button_2.LocalScript 
+	local script = Instance.new('LocalScript', button_2)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.home.Visible = not script.Parent.Parent.home.Visible
+	end)
+end
+coroutine.wrap(RJRQZDU_fake_script)()
+local function XPSLITM_fake_script() -- button_3.Script 
+	local script = Instance.new('Script', button_3)
+
+	local button = script.Parent
+	
+	button.MouseButton1Click:Connect(function()
+		local text = FLASH.Text
+	end)
+	
+end
+coroutine.wrap(XPSLITM_fake_script)()
+local function MARIVQ_fake_script() -- TextButton_3.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_3)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.Visible = false
+	end)
+end
+coroutine.wrap(MARIVQ_fake_script)()
